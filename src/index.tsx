@@ -12,4 +12,6 @@ root.render(
   </React.StrictMode>
 );
 
+/* Só pra testar no index.tsx */
+
 
