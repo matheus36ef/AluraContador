@@ -18,7 +18,7 @@ export default function Item(
 
     
     return (
-        <li className={`${style.item} ${selecionado ? style.itemSelecionado : ''}`} onClick={() => {
+        <li className={`${style.item} ${selecionado ? style.itemSelecionado : ''} ${completado ? style.itemCompletado: '0'}`} onClick={() => {
             selecionaTarefa({
                 tarefa,
                 tempo,
